@@ -11,6 +11,10 @@ A premium, interactive, and high-contrast developer portfolio built with **Next.
 - **Professional Skill Taxonomy**: Organized AIML, Core CS, and Tooling sections.
 - **Responsive & Accessible**: Optimized for all devices with a focus on readability and professionalism.
 
+## 📄 Live Demo
+
+Check out the live portfolio: [**naveen-rondla-portfolio.vercel.app**](https://naveen-rondla-portfolio.vercel.app)
+
 ## 🛠️ Technology Stack
 
 - **Frontend**: Next.js 15, React 19, TypeScript
