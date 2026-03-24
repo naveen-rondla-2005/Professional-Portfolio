@@ -10,8 +10,12 @@ export function Navbar() {
         {/* Chromatic Shimmer */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--color-cyan-pulse)]/5 to-transparent -translate-x-full group-hover/nav:translate-x-full transition-transform duration-1000 ease-in-out pointer-events-none"></div>
         <Link href="/" className="flex items-center gap-3 group/logo select-none">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[var(--color-cyan-pulse)] to-[var(--color-electric-turquoise)] flex items-center justify-center text-white font-black text-xl shadow-[0_0_20px_rgba(0,255,255,0.3)] group-hover/logo:scale-110 transition-transform duration-300">
-            NR
+          <div className="w-10 h-10 rounded-lg overflow-hidden shadow-[0_0_20px_rgba(0,255,255,0.3)] group-hover/logo:scale-110 transition-transform duration-300">
+            <img 
+              src="/assets/logo.png" 
+              alt="NR Logo" 
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="flex flex-col">
             <span className="text-[var(--foreground)] font-black tracking-tighter text-lg leading-tight uppercase">Rondla</span>
